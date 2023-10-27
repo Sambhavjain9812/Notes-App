@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+};
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #292a2d;
+  padding: 23px;
+}
+
+#input-box {
+  border: 1px solid black;
+  padding: 23px;
+}
+
+input,
+textarea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  padding: 8px 12px;
+  border: 1px solid white;
+}
+#notes {
+  padding: 23px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.note {
+  background: transparent;
+  border: 1px solid black;
+  width: 300px;
+  margin: 12px;
+  padding: 12px;
+  color: #a0a1a3;
+}
+.deleteNote {
+  float: right;
+}
